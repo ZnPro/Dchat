@@ -64,4 +64,7 @@ dependencies {
 apply plugin: 'com.google.gms.google-services'
 ```
 
+### 못한거
+- list목록 최신 대화 내용, 프로필 사진
+- 채팅 UI 내 대화만 표시, 상대는 프로필 사진, 이름, 대화 표시
 
