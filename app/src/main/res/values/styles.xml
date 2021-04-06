@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base application theme.-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!--Custermaze your theme here-->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#FF9978</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionbar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!--Custermaze your theme here-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#FF9978</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#FF9978</color>
+    <color name="colorAccent">#F44336</color>
+</resources>

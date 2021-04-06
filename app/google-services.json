@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773011533926",
+    "project_id": "dchat-6d352",
+    "storage_bucket": "dchat-6d352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773011533926:android:62e2c7c5f5a91653383da7",
+        "android_client_info": {
+          "package_name": "com.cos.dchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773011533926-ieot0j30c3ih40j3s3evoos4ibvgdfua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKCFMMVDB528dJMhemIlq3iVMaa5aFhhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773011533926-ieot0j30c3ih40j3s3evoos4ibvgdfua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

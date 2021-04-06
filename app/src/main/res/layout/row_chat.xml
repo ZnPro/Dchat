@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- A CardView that contains a TextView -->
+<!--    <TextView-->
+<!--        android:textSize="12sp"-->
+<!--        android:id="@+id/TextView_nickname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingRight="10dp"-->
+<!--        android:paddingLeft="10dp"/>-->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/TextView_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:padding="16dp">-->
+
+
+
+<!--<TextView-->
+<!--    android:id="@+id/TextView_msg"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Hello android"-->
+<!--    android:layout_below="@+id/tv_name"-->
+<!--    android:layout_marginRight="16dp"-->
+<!--    android:padding="12dp"-->
+<!--    android:maxWidth="250dp"-->
+<!--    android:background="@drawable/back_et_mymsgbox"-->
+<!--    android:textColor="#ffffff"/>-->
+
+<!--</RelativeLayout>-->
+
+
+

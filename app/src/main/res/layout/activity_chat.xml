@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/profile_iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_as_up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="채팅방"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+<!--        <ImageButton-->
+<!--            android:layout_width="23dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:background="@null"-->
+<!--            android:contentDescription="@string/app_name"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/action_icon_promise" />-->
+
+        <ImageButton
+            android:id="@+id/chat_iv_more"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_ads_more" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+        <EditText
+            android:id="@+id/EditText_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint=""
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:maxLines="3"
+            android:background="@drawable/back_et_name"/>
+
+        <Button
+            android:id="@+id/Button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보내기"
+            android:textSize="20dp"
+            android:backgroundTint="#ff8800"
+            android:layout_marginLeft="8dp"
+            android:onClick="clickSend"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
