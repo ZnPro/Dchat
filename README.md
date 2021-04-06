@@ -10,7 +10,7 @@
 
 ### 1차 임시 쓰는 res 파일
 - activity_chat.xml
-- activity_main.xml
+- activity_main.xml(activity_list_item.xml이랑 )
 - row_chat.xml
 
 
