@@ -1,4 +1,5 @@
 # Dchat
+![bandicam 2021-04-06 12-29-06-865](https://user-images.githubusercontent.com/35490108/113655380-a4f9ce80-96d4-11eb-9f8b-64d255caa3e6.gif)
 
 ### 1차 임시 쓰는 java 파일
 - ChatActivity.java
@@ -62,10 +63,5 @@ dependencies {
 //gms.google-services는 맨 마지막에 넣는게 오류가 안뜬다.
 apply plugin: 'com.google.gms.google-services'
 ```
-
-
-
-![bandicam 2021-04-06 12-29-06-865](https://user-images.githubusercontent.com/35490108/113655380-a4f9ce80-96d4-11eb-9f8b-64d255caa3e6.gif)
-
 
 
