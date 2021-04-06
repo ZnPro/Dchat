@@ -63,7 +63,9 @@ dependencies {
 apply plugin: 'com.google.gms.google-services'
 ```
 
-<img width="80%" src="https://user-images.githubusercontent.com/16822641/bandicam 2021-04-06 12-29-06-865.gif"/>
+<img width="80%" src="https://user-images.githubusercontent.com/35490108/113655380-a4f9ce80-96d4-11eb-9f8b-64d255caa3e6.gif"/>
+
+![bandicam 2021-04-06 12-29-06-865](https://user-images.githubusercontent.com/35490108/113655380-a4f9ce80-96d4-11eb-9f8b-64d255caa3e6.gif)
 
 
 
